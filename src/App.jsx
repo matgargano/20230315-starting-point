@@ -1,11 +1,13 @@
+import { Container } from "@chakra-ui/react"
+import Movies from "./components/Movies"
 
 
 function App() {
 
   return (
-    <div className="App">
-     
-    </div>
+    <Container maxW={1200}>
+     <Movies />
+    </Container>
   )
 }
 
